@@ -9,6 +9,8 @@ source: https://github.com/Jiloc/edsdk-python
 
 Read [below](#how-to-build) to build the program
 
+Run src/Main.py to start the program
+
 # edsdk-python
 
 Python wrapper for Canon EOS Digital Software Development Kit, aka EDSDK.
