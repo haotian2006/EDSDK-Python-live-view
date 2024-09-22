@@ -4,8 +4,7 @@
 A simple program used to display the live view of a eos canon camera written in python. This was made for the Canon Eos rebel xs.
 
 This is build around this wrapper
-
-source: https://github.com/Jiloc/edsdk-python
+https://github.com/Jiloc/edsdk-python
 
 Read [below](#how-to-build) to build the program
 
