@@ -1,7 +1,7 @@
 import os
 import time
-
 import edsdk
+
 from edsdk import (
     CameraCommand,
     ObjectEvent,
@@ -16,7 +16,7 @@ from edsdk import (
     DriveLens
 )
 
-fps = 75
+fps = 60
 
 edsdk.InitializeSDK()
 

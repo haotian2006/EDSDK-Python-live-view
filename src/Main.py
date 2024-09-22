@@ -1,7 +1,6 @@
-from PIL import Image
+from PIL import Image,ImageTk
 import io
 import tkinter as tk
-from PIL import ImageTk
 import subprocess
 import threading
 import time
@@ -9,7 +8,7 @@ import os
 
 window_width = 768  
 window_height = 512
-fps = 74
+fps = 59
 
 cameraManagerPath =  os.path.join(os.getcwd(),"src", "CameraManager.py")
 statusPath = os.path.join(os.getcwd(), "src","status.txt")
