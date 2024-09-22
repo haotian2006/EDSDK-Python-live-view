@@ -48,6 +48,7 @@ def Render():
 
 Render()
 
+# for some reason the camera manager just crashes when a camera disconnects sometimes
 def run_camera_manager():
     global crashed
     while True:
@@ -62,9 +63,6 @@ def run_camera_manager():
             print("Script exited normally")
         time.sleep(2)
         
-
-
-
 
 camera_thread = threading.Thread(target=run_camera_manager)
 camera_thread.start()

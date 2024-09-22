@@ -46,6 +46,7 @@ setup(
     long_description=long_description,
     ext_modules = [extension],
     install_requires=[
+        "Pillow", 
         'pywin32 >= 228 ; platform_system=="Windows"'
     ],
     setup_requires=["wheel"],
