@@ -39,8 +39,7 @@ def writeData():
         statusFile.flush()
        
 
-def main():
-    global evf_image,camera
+while True:
     lines[0] = "0"
     writeData()
     print("Detecting camera")
@@ -76,6 +75,6 @@ def main():
     except Exception as e:
         pass
     print("Session closed - Reconnecting")
-    main()
-main()
+
+    
 
